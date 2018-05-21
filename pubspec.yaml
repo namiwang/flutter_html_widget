@@ -1,14 +1,17 @@
 name: flutter_html_widget
 description: flutter widget to render simple html segments.
 version: 0.0.1
-author:
-homepage:
+author: Nami.W <namiheike@gmail.com>
+homepage: https://github.com/namiwang/flutter_html_widget
+
+environment:
+  sdk: ">=2.0.0 <=3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  html: any
-  url_launcher: any
+  html: ^0.13.3
+  url_launcher: ^3.0.1
 
 dev_dependencies:
   flutter_test:
